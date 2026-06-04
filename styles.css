@@ -160,6 +160,16 @@ h4 {
   line-height: 1.4;
 }
 
+h4 a {
+  color: var(--accent);
+}
+
+h4 a:hover,
+h4 a:focus {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .headline {
   max-width: 620px;
   margin-bottom: 18px;
@@ -256,7 +266,7 @@ h4 {
 }
 
 .venue {
-  color: var(--accent);
+  color: var(--ink);
   font-size: 0.94rem;
   font-weight: 700;
 }
