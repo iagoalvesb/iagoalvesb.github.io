@@ -1,395 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Iago Alves Brito</title>
-    <meta
-      name="description"
-      content="Academic homepage of Iago Alves Brito, M.Sc. student in Artificial Intelligence and NLP researcher at Universidade Federal de Goiás / CEIA."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header" id="top">
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f8fa" />
+  <meta name="description" content="Iago Alves Brito is an Applied AI Researcher at Articul8 AI, working on large language models, alignment, post-training, and multimodal motion representation learning." />
+  <title>Iago Alves Brito · Applied AI Researcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#awards">Awards</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main class="page">
-      <section class="intro" aria-labelledby="name">
-        <div class="portrait-wrap">
-          <img
-            class="portrait"
-            src="profile_photo.jpg"
-            alt="Portrait of Iago Alves Brito"
-            width="800"
-            height="800"
-          />
+  <main class="page" id="main">
+    <section class="intro" aria-labelledby="name">
+      <div class="portrait-wrap">
+        <!-- Keep the existing profile_photo.jpg file in the same folder. -->
+        <img class="portrait" src="profile_photo.jpg" alt="Portrait of Iago Alves Brito" width="800" height="800" />
+      </div>
+      <div class="intro-copy">
+        <p class="eyebrow">Applied AI Research · LLMs · Multimodal Learning</p>
+        <h1 id="name">Iago Alves Brito</h1>
+        <p class="headline">Applied AI Researcher at <strong>Articul8 AI</strong> and M.Sc. candidate in Artificial Intelligence at Universidade Federal de Goiás.</p>
+        <div class="quick-links" aria-label="Profile links">
+          <a href="mailto:brito.iagoalves@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=Wy-JK9UAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/iagobrito/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/iagoalvesb" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
+      </div>
+    </section>
 
-        <div class="intro-copy">
-          <p class="eyebrow">Artificial Intelligence · NLP · LLM Safety</p>
-          <h1 id="name">Iago Alves Brito</h1>
-          <p class="headline">
-            M.Sc. student in Artificial Intelligence and NLP researcher at
-            Universidade Federal de Goiás / CEIA.
-          </p>
-          <div class="quick-links" aria-label="Profile links">
-            <a href="mailto:iagoalves@discente.ufg.br">iagoalves@discente.ufg.br</a>
-            <a
-              href="https://scholar.google.com/citations?user=uY2rjsAAAAAJ"
-              rel="noopener noreferrer"
-              target="_blank"
-              >Google Scholar</a
-            >
-            <a
-              href="https://www.linkedin.com/in/iagobrito/"
-              rel="noopener noreferrer"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </div>
-        </div>
-      </section>
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>I am an Applied AI Researcher working on large language models and multimodal learning. My work spans model pre-training and post-training, safety and alignment, evaluation, long-context processing, and dataset development. I have worked on AI applications in law, energy, and healthcare, with a focus on making models more reliable in real-world settings.</p>
+      <p>My research also extends to human motion understanding and generation, including motion representation learning, tokenization, quantization, text-to-motion generation, and learning across heterogeneous skeletal and motion schemas.</p>
+    </section>
 
-      <section class="section" id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About</h2>
-        <p>
-          I am an M.Sc. student in Artificial Intelligence at Universidade
-          Federal de Goiás and an NLP researcher at the Center of Excellence in
-          Artificial Intelligence (CEIA). My research focuses on language
-          technologies for Portuguese speakers, with interests in LLM safety and
-          alignment, minority-targeted toxicity, clinical AI, legal NLP, and
-          practical dataset construction for specialized domains.
-        </p>
-        <p>
-          Across academic and R&amp;D projects, I work on building and evaluating
-          language models and datasets for socially grounded applications,
-          including healthcare, law, energy, emotion recognition, and digital
-          human interaction.
-        </p>
-      </section>
+    <section class="section" id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research Interests</h2>
+      <div class="focus-grid">
+        <article class="focus-card">
+          <h3>Language Models &amp; Alignment</h3>
+          <p>LLM pre-training and post-training, preference optimization, safety and robustness, long-context modeling, model evaluation, and high-quality datasets for specialized domains.</p>
+          <p class="focus-topics">CPT · SFT · DPO · GRPO · Safety · Evaluation</p>
+        </article>
+        <article class="focus-card">
+          <h3>Multimodal &amp; Motion Learning</h3>
+          <p>Representation learning for human motion, motion tokenization and quantization, generative modeling, text-to-motion synthesis, and compatibility across motion schemas.</p>
+          <p class="focus-topics">Motion VAEs · Representation Learning · Quantization · Generation</p>
+        </article>
+      </div>
+      <div class="methods">
+        <h3>Tools &amp; Methods</h3>
+        <p><strong>Training:</strong> Python, PyTorch, Hugging Face Transformers and Datasets, DeepSpeed, Accelerate, TRL, PEFT/LoRA, DDP, FSDP, ZeRO.</p>
+        <p><strong>Systems &amp; applications:</strong> vLLM, RAG, model serving, multi-GPU training, Docker, Linux, Git, SQL, GCP.</p>
+      </div>
+    </section>
 
-      <section
-        class="section"
-        id="publications"
-        aria-labelledby="publications-heading"
-      >
+    <section class="section" id="publications" aria-labelledby="publications-heading">
+      <div class="section-heading-row">
         <h2 id="publications-heading">Publications</h2>
-        <div class="publication-group" aria-labelledby="pub-2026">
-          <h3 id="pub-2026">2026</h3>
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://arxiv.org/abs/2601.04389" rel="noopener noreferrer" target="_blank">Safety Is Not Universal: The Selective Safety Trap in LLM Alignment</a>
-              </h4>
-              <p class="venue">In Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</p>
-              <p>
-                Bilingual benchmark showing that LLM safety and alignment vary
-                by targeted minority group.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://aclanthology.org/2026.findings-acl.489.pdf" rel="noopener noreferrer" target="_blank">Paper</a>
-                <a href="https://github.com/iagoalvesb/mijabench" rel="noopener noreferrer" target="_blank">GitHub</a>
-                <a href="https://huggingface.co/datasets/AKCIT/mijabench" rel="noopener noreferrer" target="_blank">Dataset</a>
-                <a href="https://huggingface.co/datasets/AKCIT/mijabench_align" rel="noopener noreferrer" target="_blank">Align Data</a>
+        <a class="small-external" href="https://scholar.google.com/citations?user=Wy-JK9UAAAAJ" target="_blank" rel="noopener noreferrer">Full profile on Google Scholar ↗</a>
+      </div>
+          <div class="publication-group" aria-labelledby="pub-2026">
+            <h3 id="pub-2026">2026</h3>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://arxiv.org/abs/2610.17376" target="_blank" rel="noopener noreferrer">What Makes a Latent Space Shared? Direct and Recoverable Compatibility in Motion VAEs</a></h4>
+                <p class="venue">arXiv preprint · October 2026</p>
+                <p class="pub-authors">I. Brito, W. Rios, L. Fernandes, K. de Oliveira</p>
+                <p class="pub-description">Studies why shared motion-VAE backbones and priors do not guarantee directly compatible latent coordinates, and how limited paired supervision changes that.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://arxiv.org/abs/2610.17376" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
               </div>
-            </div>
-            <span class="role">First Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://arxiv.org/abs/2506.10245" rel="noopener noreferrer" target="_blank">ToxSyn-PT: A Synthetic Fine-Grained Dataset of Minority-Targeted Toxic Language in Portuguese</a>
-              </h4>
-              <p class="venue">In Proceedings of the 15th edition of the Language Resources and Evaluation Conference (LREC 2026)</p>
-              <p>
-                Synthetic dataset covering nine minority groups for Portuguese
-                hate speech detection.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://arxiv.org/abs/2506.10245" rel="noopener noreferrer" target="_blank">Paper</a>
-                <a href="https://huggingface.co/datasets/AKCIT/ToxSyn-PT" rel="noopener noreferrer" target="_blank">Dataset</a>
+              <span class="role">First Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://openreview.net/forum?id=J6GFuk0FQR" target="_blank" rel="noopener noreferrer">Benchmarking Motion Tokenizers: A Controlled Study of Human Motion Quantization</a></h4>
+                <p class="venue">ECCV 2026 · HuMoWM Workshop</p>
+                <p class="pub-authors">K. C. de Oliveira, I. A. Brito, L. A. Fernandes, W. Rios, A. R. Galvão Filho</p>
+                <p class="pub-description">Controlled benchmarking of motion tokenization and quantization methods for human motion representations.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://openreview.net/forum?id=J6GFuk0FQR" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
               </div>
-            </div>
-            <span class="role">First Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://arxiv.org/abs/2511.11878" rel="noopener noreferrer" target="_blank">MedPT: A Massive Medical Question Answering Dataset for Brazilian-Portuguese Speakers</a>
-              </h4>
-              <p class="venue">In Proceedings of the 15th edition of the Language Resources and Evaluation Conference (LREC 2026)</p>
-              <p>
-                380k+ real patient-doctor QA pairs for Brazilian Portuguese
-                clinical AI.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://arxiv.org/abs/2511.11878" rel="noopener noreferrer" target="_blank">Paper</a>
-                <a href="https://huggingface.co/datasets/AKCIT/MedPT" rel="noopener noreferrer" target="_blank">Dataset</a>
+              <span class="role">Second Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://aclanthology.org/2026.findings-acl.489/" target="_blank" rel="noopener noreferrer">Safety Is Not Universal: The Selective Safety Trap in LLM Alignment</a></h4>
+                <p class="venue">Findings of ACL 2026</p>
+                <p class="pub-authors">I. A. Brito, W. Rios, J. S. Dollis, D. F. C. Silva, A. R. Galvão Filho</p>
+                <p class="pub-description">Introduces MiJaBench to study how LLM safety defenses vary across minority groups, languages, and adversarial strategies.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://aclanthology.org/2026.findings-acl.489/" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a href="https://github.com/iagoalvesb/mijabench" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a href="https://huggingface.co/datasets/AKCIT/mijabench" target="_blank" rel="noopener noreferrer">Benchmark</a>
+                    <a href="https://huggingface.co/datasets/AKCIT/mijabench_align" target="_blank" rel="noopener noreferrer">Alignment Data</a>
+                </div>
               </div>
-            </div>
-            <span class="role">Second Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://arxiv.org/abs/2509.14132" rel="noopener noreferrer" target="_blank">When avatars have personality: Effects on engagement and communication in immersive medical training</a>
-              </h4>
-              <p class="venue">In Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW 2026)</p>
-              <p>
-                Studies how personality traits in digital human avatars affect
-                engagement and communication in VR medical training.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://arxiv.org/abs/2509.14132" rel="noopener noreferrer" target="_blank">Paper</a>
+              <span class="role">First Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://arxiv.org/abs/2506.10245" target="_blank" rel="noopener noreferrer">ToxSyn-PT: A Synthetic Fine-Grained Dataset of Minority-Targeted Toxic Language in Portuguese</a></h4>
+                <p class="venue">LREC 2026</p>
+                <p class="pub-authors">I. A. Brito, J. S. Dollis, F. B. Färber, D. F. C. Silva, A. R. Galvão Filho</p>
+                <p class="pub-description">A fine-grained synthetic dataset for minority-targeted toxic language detection in Brazilian Portuguese.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://arxiv.org/abs/2506.10245" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a href="https://huggingface.co/datasets/AKCIT/ToxSyn-PT" target="_blank" rel="noopener noreferrer">Dataset</a>
+                </div>
               </div>
-            </div>
-            <span class="role">Second Author</span>
-          </article>
-        </div>
-
-        <div class="publication-group" aria-labelledby="pub-2025">
-          <h3 id="pub-2025">2025</h3>
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://aclanthology.org/2025.findings-emnlp.506/" rel="noopener noreferrer" target="_blank">Modeling, Evaluating, and Embodying Personality in LLMs: A Survey</a>
-              </h4>
-              <p class="venue">In Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</p>
-              <p>
-                Survey of methods for personality in LLMs.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://aclanthology.org/2025.findings-emnlp.506/" rel="noopener noreferrer" target="_blank">Paper</a>
+              <span class="role">First Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://arxiv.org/abs/2511.11878" target="_blank" rel="noopener noreferrer">MedPT: A Massive Medical Question Answering Dataset for Brazilian-Portuguese Speakers</a></h4>
+                <p class="venue">LREC 2026</p>
+                <p class="pub-authors">F. B. Färber, I. A. Brito, J. S. Dollis, P. S. F. B. Ribeiro, R. T. Sousa, A. R. G. Filho</p>
+                <p class="pub-description">A large-scale Brazilian Portuguese medical question-answering dataset drawn from patient–doctor exchanges.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://arxiv.org/abs/2511.11878" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a href="https://huggingface.co/datasets/AKCIT/MedPT" target="_blank" rel="noopener noreferrer">Dataset</a>
+                </div>
               </div>
-            </div>
-            <span class="role">First Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://aclanthology.org/2025.findings-emnlp.528/" rel="noopener noreferrer" target="_blank">Proxy Barrier: A Hidden Repeater Layer Defense Against System Prompt Leakage and Jailbreaking</a>
-              </h4>
-              <p class="venue">In Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</p>
-              <p>
-                Proxy LLM layer to intercept jailbreaks and prompt-leakage
-                attacks before they reach the core model.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://aclanthology.org/2025.findings-emnlp.528/" rel="noopener noreferrer" target="_blank">Paper</a>
+              <span class="role">Second Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://arxiv.org/abs/2509.14132" target="_blank" rel="noopener noreferrer">When Avatars Have Personality: Effects on Engagement and Communication in Immersive Medical Training</a></h4>
+                <p class="venue">IEEE VRW 2026</p>
+                <p class="pub-authors">J. S. Dollis, I. A. Brito, F. B. Färber, P. S. F. B. Ribeiro, G. Webster, A. A. Bastos, et al.</p>
+                <p class="pub-description">Examines the role of personality-driven virtual humans in communication and engagement during immersive medical training.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://arxiv.org/abs/2509.14132" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
               </div>
-            </div>
-            <span class="role">Second Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://aclanthology.org/2025.semeval-1.300/" rel="noopener noreferrer" target="_blank">AKCIT at SemEval-2025 Task 11: Investigating Data Quality in Portuguese Emotion Recognition</a>
-              </h4>
-              <p class="venue">In Proceedings of the 19th International Workshop on Semantic Evaluation (SemEval 2025)</p>
-              <p>
-                Studies data quality, synthetic augmentation, and intensity
-                labels for Portuguese emotion recognition.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://aclanthology.org/2025.semeval-1.300/" rel="noopener noreferrer" target="_blank">Paper</a>
+              <span class="role">Second Author</span>
+            </article>
+          </div>
+          <div class="publication-group" aria-labelledby="pub-2025">
+            <h3 id="pub-2025">2025</h3>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://aclanthology.org/2025.findings-emnlp.528/" target="_blank" rel="noopener noreferrer">Proxy Barrier: A Hidden Repeater Layer Defense Against System Prompt Leakage and Jailbreaking</a></h4>
+                <p class="venue">Findings of EMNLP 2025</p>
+                <p class="pub-authors">P. S. F. B. Ribeiro, I. A. Brito, R. T. Sousa, F. B. Färber, J. S. Dollis, A. R. Galvão Filho</p>
+                <p class="pub-description">Investigates an intermediary language-model defense against jailbreaks and system prompt leakage.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://aclanthology.org/2025.findings-emnlp.528/" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
               </div>
-            </div>
-            <span class="role">First Author</span>
-          </article>
-
-          <article class="publication">
-            <div class="publication-main">
-              <h4>
-                <a href="https://sol.sbc.org.br/index.php/sbcas/article/view/35558" rel="noopener noreferrer" target="_blank">Iaramed: A women's healthcare chatbot for portuguese speakers</a>
-              </h4>
-              <p class="venue">In Proceedings of the Brazilian Symposium on Computing Applied to Health (SBCAS 2025)</p>
-              <p>
-                RAG chatbot for evidence-based reproductive and general health
-                information for Portuguese-speaking women.
-              </p>
-              <div class="pub-links" aria-label="Publication links">
-                <a href="https://sol.sbc.org.br/index.php/sbcas/article/view/35558" rel="noopener noreferrer" target="_blank">Paper</a>
-                <a href="https://huggingface.co/IaraMed" rel="noopener noreferrer" target="_blank">Dataset</a>
+              <span class="role">Second Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://aclanthology.org/2025.findings-emnlp.506/" target="_blank" rel="noopener noreferrer">Modeling, Evaluating, and Embodying Personality in LLMs: A Survey</a></h4>
+                <p class="venue">Findings of EMNLP 2025</p>
+                <p class="pub-authors">I. A. Brito, J. S. Dollis, F. B. Färber, P. S. F. B. Ribeiro, R. T. Sousa, A. R. Galvão Filho</p>
+                <p class="pub-description">Surveys methods for modeling, evaluating, and expressing personality in language models and embodied agents.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://aclanthology.org/2025.findings-emnlp.506/" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
               </div>
-            </div>
-            <span class="role">Coauthor</span>
-          </article>
-        </div>
-      </section>
+              <span class="role">First Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://aclanthology.org/2025.semeval-1.300/" target="_blank" rel="noopener noreferrer">AKCIT at SemEval-2025 Task 11: Investigating Data Quality in Portuguese Emotion Recognition</a></h4>
+                <p class="venue">SemEval 2025</p>
+                <p class="pub-authors">I. A. Brito, F. B. Färber, J. S. Dollis, D. M. Pedrozo, A. M. A. Novais, D. F. C. Silva, et al.</p>
+                <p class="pub-description">Studies data quality and augmentation for emotion recognition in Portuguese.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://aclanthology.org/2025.semeval-1.300/" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
+              </div>
+              <span class="role">First Author</span>
+            </article>
+            <article class="publication">
+              <div class="publication-main">
+                <h4><a href="https://sol.sbc.org.br/index.php/sbcas/article/view/35558" target="_blank" rel="noopener noreferrer">IaraMed: A Women’s Healthcare Chatbot for Portuguese Speakers</a></h4>
+                <p class="venue">SBCAS 2025</p>
+                <p class="pub-authors">F. B. Färber, J. S. Dollis, P. S. F. B. Ribeiro, I. A. Brito, R. T. Sousa, A. R. Galvão Filho</p>
+                <p class="pub-description">A retrieval-augmented chatbot designed to support Portuguese-language women’s healthcare information.</p>
+                <div class="pub-links" aria-label="Publication links">
+                    <a href="https://sol.sbc.org.br/index.php/sbcas/article/view/35558" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a href="https://huggingface.co/IaraMed" target="_blank" rel="noopener noreferrer">Resources</a>
+                </div>
+              </div>
+              <span class="role">Coauthor</span>
+            </article>
+          </div>
+    </section>
 
-      <section class="section" id="awards" aria-labelledby="awards-heading">
-        <h2 id="awards-heading">Awards</h2>
-        <ol class="news-list">
-          <li>
-            <span class="date">2026</span>
-            <span>
-              <strong
-                >The Selective Safety Trap: How LLMs Scaling and Alignment Fail
-                to Generalize Across Minority Demographics</strong
-              >
-              won the Didactic Paper Award at the I Can’t Believe It’s Not
-              Better workshop at ICLR 2026. This workshop paper is related to a
-              preprint version of the later accepted Findings of ACL 2026 paper
-              <em
-                >Safety Is Not Universal: The Selective Safety Trap in LLM
-                Alignment</em
-              >.
-            </span>
-          </li>
-        </ol>
-      </section>
-
-      <section class="section" id="education" aria-labelledby="education-heading">
-        <h2 id="education-heading">Education</h2>
-        <div class="timeline-list">
-          <article class="timeline-item">
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Research Experience</h2>
+      <div class="timeline-list">
+        <article class="timeline-item experience-item">
+          <div class="experience-head">
             <div>
-              <h3>M.Sc. in Artificial Intelligence</h3>
-              <p>Universidade Federal de Goiás</p>
+              <h3>Applied AI Researcher</h3>
+              <p class="organization">Articul8 AI</p>
             </div>
-            <span class="date">Jan 2025–present</span>
-          </article>
-          <article class="timeline-item">
+            <span class="date">Sep 2026–Present</span>
+          </div>
+          <p>Applied AI research focused on large language models and practical AI systems.</p>
+        </article>
+
+        <article class="timeline-item experience-item">
+          <div class="experience-head">
             <div>
-              <h3>B.Sc. in Artificial Intelligence</h3>
-              <p>Universidade Federal de Goiás</p>
-              <p class="note">GPA/grade: 9.3/10</p>
+              <h3>Advanced Knowledge Center in Immersive Technologies (AKCIT)</h3>
+              <p class="organization">EMBRAPII Competence Center</p>
             </div>
-            <span class="date">May 2021–Dec 2024</span>
-          </article>
-        </div>
-      </section>
+            <span class="date">Jun 2024–Sep 2026</span>
+          </div>
+          <div class="experience-role">
+            <div class="experience-role-title"><h4>Multimodal Researcher</h4><span class="date">Jun 2025–Sep 2026</span></div>
+            <p>Human motion understanding and generation, representation learning, motion tokenization and quantization, text-to-motion generation, and cross-schema learning.</p>
+          </div>
+          <div class="experience-role">
+            <div class="experience-role-title"><h4>NLP Researcher</h4><span class="date">Jun 2024–Jul 2025</span></div>
+            <p>LLM safety, personality modeling, and natural human–AI interaction for virtual and immersive environments.</p>
+          </div>
+        </article>
 
-      <section class="section" id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">R&amp;D Projects</h2>
-        <p class="section-lead">
-          Research projects at the Center of Excellence in Artificial
-          Intelligence (CEIA), developed with external partners.
-        </p>
-
-        <div class="project-list">
-          
-          <article class="project">
-            <div class="project-heading">
-              <h3>SEBRAE</h3>
-              <span class="date">May 2026–present</span>
+        <article class="timeline-item experience-item">
+          <div class="experience-head">
+            <div>
+              <h3>Center of Excellence in Artificial Intelligence (CEIA)</h3>
+              <p class="organization">Universidade Federal de Goiás</p>
             </div>
-            <p class="project-title">Conversational Platform</p>
-            <p>
-              Part of the application team building a conversational platform
-              that helps Brazilian entrepreneurs understand and manage their
-              businesses through natural-language questions, such as inventory
-              and operational queries. I am responsible for data ingestion
-              pipelines in a Google Cloud Platform environment and for
-              conversational agent pipelines.
-            </p>
-          </article>
+            <span class="date">Jan 2022–Sep 2026</span>
+          </div>
+          <div class="experience-role">
+            <div class="experience-role-title"><h4>NLP Researcher · CEMIG</h4><span class="date">Feb 2024–Sep 2026</span></div>
+            <p>LLM post-training and development, curation, and generation of domain-specific datasets for the electric power sector.</p>
+          </div>
+          <div class="experience-role">
+            <div class="experience-role-title"><h4>NLP Researcher · COREJUR</h4><span class="date">Jan 2023–Sep 2026</span></div>
+            <p>Legal-domain LLMs, long-context processing, model training and evaluation, document classification, and structured information extraction.</p>
+          </div>
+          <div class="experience-role">
+            <div class="experience-role-title"><h4>NLP Researcher · CNJ</h4><span class="date">Jan 2022–Dec 2022</span></div>
+            <p>Methods for identifying and grouping similar legal cases, precedents, legislation, and doctrinal references in the Brazilian judiciary.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-          <article class="project">
-            <div class="project-heading">
-              <h3>CEMIG</h3>
-              <span class="date">Feb 2024–present</span>
-            </div>
-            <p class="project-title">Energy-sector</p>
-            <p>
-              I work on AI safety for LLMs in the electric power sector,
-              focusing on security evaluation in Portuguese and English
-              scenarios, harmful-content classification, and mitigation
-              strategies to prevent undesirable model generations.
-            </p>
-          </article>
+    <section class="section" id="awards" aria-labelledby="awards-heading">
+      <h2 id="awards-heading">Awards</h2>
+      <ol class="news-list">
+        <li>
+          <span class="date">2026</span>
+          <span><strong>Didactic Paper Award</strong> at the <em>I Can’t Believe It’s Not Better</em> workshop at ICLR 2026, for <em>The Selective Safety Trap: How LLMs Scaling and Alignment Fail to Generalize Across Minority Demographics</em>, a workshop version related to the later Findings of ACL 2026 paper.</span>
+        </li>
+      </ol>
+    </section>
 
-          <article class="project">
-            <div class="project-heading">
-              <h3>COREJUR</h3>
-              <span class="date">Jan 2023–present</span>
-            </div>
-            <p class="project-title">Legal NLP</p>
-            <p>
-              Long-running R&amp;D project on legal document understanding,
-              retrieval, question answering, and domain-specialized generation
-              for the Brazilian legal domain.
-            </p>
-            <details class="project-details">
-              <summary>Project cycles and responsibilities</summary>
-              <div class="cycle-list">
-                <p>
-                  <strong>Cycle 3 · Jan 2026–present:</strong> Lead the text
-                  generation team, working with long context, information
-                  extraction, domain-specialized legal text generation, and
-                  question answering.
-                </p>
-                <p>
-                  <strong>Cycle 2 · Jan 2024–Dec 2025:</strong> Tested and
-                  obtained results with retrieval-augmented generation, using
-                  classified documents together with retrieved and crawled
-                  jurisprudence and other legal documents; guided two junior
-                  researchers.
-                </p>
-                <p>
-                  <strong>Cycle 1 · Jan 2023–Dec 2023:</strong> Worked on data
-                  curation and fine-tuning BERT-like models for legal document
-                  classification in Portuguese.
-                </p>
-              </div>
-            </details>
-          </article>
+    <section class="section" id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="timeline-list">
+        <article class="timeline-item">
+          <div>
+            <h3>M.Sc. in Artificial Intelligence</h3>
+            <p>Universidade Federal de Goiás (UFG)</p>
+            <p class="note">Expected completion: December 2026</p>
+          </div>
+          <span class="date">Jan 2025–Present</span>
+        </article>
+        <article class="timeline-item">
+          <div>
+            <h3>B.Sc. in Artificial Intelligence</h3>
+            <p>Universidade Federal de Goiás (UFG)</p>
+            <p class="note">Final grade: 9.3/10</p>
+          </div>
+          <span class="date">May 2021–Dec 2024</span>
+        </article>
+      </div>
+    </section>
 
-          <article class="project">
-            <div class="project-heading">
-              <h3>National Justice Council (CNJ)</h3>
-              <span class="date">Jan 2022–Dec 2022</span>
-            </div>
-            <p class="project-title">Legal NLP</p>
-            <p>
-              Worked on a United Nations Development Programme (UNDP)-funded
-              initiative with the National Justice Council (CNJ) to improve AI
-              support for clustering repetitive legal claims and precedents. I
-              used similarity algorithms, including Levenshtein distance, to
-              disambiguate named entities and improve clustering quality.
-            </p>
-          </article>
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>For research questions and professional inquiries, you can reach me through the links below.</p>
+      <div class="contact-links" aria-label="Contact links">
+        <a href="mailto:brito.iagoalves@gmail.com">brito.iagoalves@gmail.com</a>
+        <a href="https://scholar.google.com/citations?user=Wy-JK9UAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/iagobrito/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/iagoalvesb" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
 
-        </div>
-      </section>
-
-      <section class="section contact" id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <div class="contact-links" aria-label="Contact links">
-          <a href="mailto:iagoalves@discente.ufg.br">iagoalves@discente.ufg.br</a>
-          <a
-            href="https://scholar.google.com/citations?user=uY2rjsAAAAAJ"
-            rel="noopener noreferrer"
-            target="_blank"
-            >Google Scholar</a
-          >
-          <a
-            href="https://www.linkedin.com/in/iagobrito/"
-            rel="noopener noreferrer"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <p>Last updated June 2026.</p>
-      <a href="#top">Back to top</a>
-    </footer>
-  </body>
+  <footer class="footer">
+    <p>Last updated October 2026.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
 </html>
